@@ -33,7 +33,4 @@ public class ParameterizedFelineTest {
         Assert.assertEquals(expectedKittenCount, actualKittens);
     }
 
-
-
-
 }
