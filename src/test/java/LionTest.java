@@ -20,12 +20,14 @@ public class LionTest {
         Lion lion = new Lion(sex, feline);
         lion.doesHaveMane();
     }
+
     @Test
     public void checkKittensTest() throws Exception {
         Lion lion = new Lion("Самец", feline);
         lion.getKittens();
         Mockito.verify(feline, Mockito.times(1)).getKittens();
     }
+
     @Test
     public void checkFoodTest() throws Exception {
         Lion lion = new Lion("Самец", feline);
